@@ -1,4 +1,3 @@
-# SHINO46 — Marvel-стиль шиномонтажа
+# SHINO46 Marvel Edition
 
-Marvel-версия сайта для шиномонтажа SHINO46.
-Запись через Telegram: @Shino46bot
+Веб-сайт для записи на шиномонтаж с оформлением в стиле Marvel.
