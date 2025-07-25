@@ -1,1 +1,1 @@
-console.log('SHINO46 Marvel site loaded');
+console.log("SHINO46 Marvel site loaded");
