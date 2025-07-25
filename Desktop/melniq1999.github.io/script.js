@@ -1,0 +1,1 @@
+console.log('SHINO46 Marvel site loaded');
