@@ -58,3 +58,23 @@ footer {
   font-size: 12px;
   color: #999;
 }
+
+.background {
+  background-image: url("homepage.png");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* Невидимая кнопка по координатам кнопки на PNG */
+.btn-link {
+  position: absolute;
+  bottom: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 280px;
+  height: 60px;
+  cursor: pointer;
+}
