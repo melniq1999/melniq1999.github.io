@@ -3,16 +3,83 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SHINO46 — шиномонтаж</title>
+  <title>SHINO46 — шиномонтаж | Запись в Telegram</title>
+  <meta name="description" content="SHINO46 — шиномонтаж. Быстро, аккуратно, по-человечески. Онлайн-запись через Telegram-бота." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="card">
-    <h1 class="logo">SHINO46</h1>
-    <h2>Онлайн-запись на шиномонтаж</h2>
-    <a class="btn" href="https://t.me/Shino46bot" target="_blank" rel="noopener">Записаться через Telegram</a>
-    <p class="tagline">Быстро. Надёжно. Как в комиксах <strong>MARVEL</strong>.</p>
+  <header class="header panel" id="top">
+    <div class="container">
+      <h1 class="logo" aria-label="SHINO46">SHINO<span>46</span></h1>
+      <nav class="nav">
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Контакты</a>
+        <a class="btn btn-primary" href="https://t.me/Shino46bot" target="_blank" rel="noopener">Записаться</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero panel">
+      <div class="container">
+        <h2 class="hero-title">Шиномонтаж в стиле <span>комикса</span></h2>
+        <p class="hero-subtitle">Быстро. Аккуратно. По-человечески.</p>
+        <a class="btn btn-primary btn-lg" href="https://t.me/Shino46bot" target="_blank" rel="noopener">Записаться в Telegram</a>
+      </div>
+    </section>
+    <section id="about" class="about panel">
+      <div class="container">
+        <h3 class="section-title">О нас</h3>
+        <p>Мы делаем ровно то, что нужно: шиномонтаж без воды и лишних слов. Приехал — сделал — уехал. Онлайн-запись через Telegram, никаких звонков и ожиданий.</p>
+        <ul class="advantages">
+          <li><span>⚡</span> Быстро</li>
+          <li><span>🎯</span> Чётко по времени</li>
+          <li><span>🛠️</span> Профессионально</li>
+        </ul>
+      </div>
+    </section>
+    <section id="services" class="services panel">
+      <div class="container">
+        <h3 class="section-title">Услуги и цены</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>Сезонная переобувка</h4>
+            <p class="price">от 1 500 ₽</p>
+          </article>
+          <article class="card">
+            <h4>Балансировка</h4>
+            <p class="price">от 1 000 ₽</p>
+          </article>
+          <article class="card">
+            <h4>Ремонт проколов</h4>
+            <p class="price">от 500 ₽</p>
+          </article>
+          <article class="card">
+            <h4>Хранение шин</h4>
+            <p class="price">по запросу</p>
+          </article>
+        </div>
+        <p class="hint">* Цены для примера — подставь свои.</p>
+      </div>
+    </section>
+    <section id="contact" class="contact panel">
+      <div class="container">
+        <h3 class="section-title">Контакты</h3>
+        <p>Запись и вопросы — через Telegram‑бота.</p>
+        <p class="contact-actions">
+          <a class="btn btn-primary" href="https://t.me/Shino46bot" target="_blank" rel="noopener">Написать боту</a>
+        </p>
+      </div>
+    </section>
   </main>
-  <footer>© SHINO46, 2025</footer>
+  <footer class="footer panel">
+    <div class="container">
+      <p>© <span id="year"></span> SHINO46. Все права защищены.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>

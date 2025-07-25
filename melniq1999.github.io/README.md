@@ -1,2 +1,2 @@
-# SHINO46 — Marvel style
-Готовый статический лендинг. Положи файлы в корень репозитория melniq1999.github.io и запушь в ветку main.
+# SHINO46 — сайт шиномонтажа
+Запись через Telegram-бота: https://t.me/Shino46bot
