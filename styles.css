@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
   background: url('homepage.png') no-repeat center center fixed;
-background-size: cover;
+  background-size: cover;
   color: white;
   display: flex;
   justify-content: center;
